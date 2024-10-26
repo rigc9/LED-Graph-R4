@@ -2,6 +2,9 @@
 Simple graphing code for LED matrix in Arduino Uno R4 Wifi
 just like a bad oscilloscope.
 
+1. Flowing direction can be changed.
+2. Read analog pins etc and averaging over the display updating period.
+
 Compiled on AruduinoIDE 2.3.3 with Arduino Uno Boards 1.2.2
 
 ## Demo
@@ -9,7 +12,7 @@ Compiled on AruduinoIDE 2.3.3 with Arduino Uno Boards 1.2.2
 
 ## Variables:
 1. int DisplayPeriod = 500;
-  - update period
+  - updating period
 2. bool RtoL = false;
   - flow direction
 3. bool BarGraph = true;
