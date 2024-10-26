@@ -42,8 +42,6 @@ void loop() {
   int nv[8];
   byte_to_bit_array(nv_bin, nv);
 
-  // display by point
-
   // calculate frame
   unsigned long b1 = frame[0];
   unsigned long b2 = frame[1];
