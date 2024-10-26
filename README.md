@@ -14,3 +14,6 @@ Simple graphing code for LED matrix in Arduino Uno R4
   - Offset for converting value to 8 bit value in the LED matrix
 
 - LED 8 bit value = Gain * (value - offset)
+
+## Demo
+![LED BarGraph](https://github.com/user-attachments/assets/19ee3e28-9b5a-45d3-b837-ee8e1e045207)
