@@ -11,7 +11,7 @@ float Offset = 0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Available command: RtoL, BarGraph, Gain <value>, Offs <value>");
+  Serial.println("Available command: RtoL, BarGraph, Gain <value>, Offs <value>, DisP <value>");
   matrix.begin();
 }
 
