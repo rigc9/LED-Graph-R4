@@ -1,5 +1,9 @@
 # LED-Graph-R4
 Simple graphing code for LED matrix in Arduino Uno R4
+just like a bad oscilloscope.
+
+## Demo
+![LED BarGraph](https://github.com/user-attachments/assets/19ee3e28-9b5a-45d3-b837-ee8e1e045207)
 
 ## Variables:
 1. int DisplayPeriod = 500;
@@ -15,5 +19,3 @@ Simple graphing code for LED matrix in Arduino Uno R4
 
 - LED 8 bit value = Gain * (value - offset)
 
-## Demo
-![LED BarGraph](https://github.com/user-attachments/assets/19ee3e28-9b5a-45d3-b837-ee8e1e045207)
