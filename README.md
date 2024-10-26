@@ -2,24 +2,15 @@
 Simple graphing code for LED matrix in Arduino Uno R4
 
 ## Variables:
-- int DisplayPeriod = 500;
-  
-update period
+1. int DisplayPeriod = 500;
+  - update period
+2. bool RtoL = false;
+  - flow direction
+3. bool BarGraph = true;
+  - fill or not fill
+4. float Gain = 1;
+  - Gain for converting value to 8 bit value in the LED matrix
+5. float Offset = 0;
+  - Offset for converting value to 8 bit value in the LED matrix
 
-- bool RtoL = false;
-
-flow direction
-
-- bool BarGraph = true;
-
-fill or not fill
-
-- float Gain = 1;
-
-Gain for converting value to 8 bit value in the LED matrix
-
-- float Offset = 0;
-
-Offset for converting value to 8 bit value in the LED matrix
-
-LED 8 bit value = Gain * (value - offset)
+- LED 8 bit value = Gain * (value - offset)
