@@ -2,6 +2,8 @@
 Simple graphing code for LED matrix in Arduino Uno R4 Wifi
 just like a bad oscilloscope.
 
+Compiled on AruduinoIDE 2.3.3 with Arduino Uno Boards 1.2.2
+
 ## Demo
 ![LED BarGraph](https://github.com/user-attachments/assets/19ee3e28-9b5a-45d3-b837-ee8e1e045207)
 
