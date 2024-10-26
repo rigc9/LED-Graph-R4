@@ -3,7 +3,7 @@ Simple graphing code for LED matrix in Arduino Uno R4 Wifi
 just like a bad oscilloscope.
 
 1. Flowing direction can be changed.
-2. Read analog pins etc and averaging over the display updating period.
+2. It reads analog pins, etc, and calculate the average value until the display is updated.
 
 Compiled on AruduinoIDE 2.3.3 with Arduino Uno Boards 1.2.2
 
